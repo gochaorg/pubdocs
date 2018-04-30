@@ -89,27 +89,35 @@
 Книги и другие ресурсы по Математике
 ====================================
 
+Философия, история и матмематика
+--------------------------------
+* [Александр Ивин - Искусство правильно мыслить](https://www.ozon.ru/context/detail/id/3134515/)
+* [Моррис Р. Коэн, Эрнест Нагель - Введение в логику и научный метод](https://www.ozon.ru/context/detail/id/5054849/)
+* [Джозеф Бен-Дэвид. Роль ученого в обществе](http://www.nlobooks.ru/node/4353)
+* [Джон Дербишир - Простая одержимость](http://elementy.ru/bookclub/book/332)
+* [Иэн Стюарт - Величайшие математические задачи](https://www.litres.ru/ien-stuart/velichayshie-matematicheskie-zadachi-15210871/)
+* [Успенский Владимир - Апология математики, или О математике как части духовной культуры](https://www.e-reading.club/book.php?book=139433)
+* [Ричард Докинз - Эгоистичный ген](https://ru.wikipedia.org/wiki/%D0%AD%D0%B3%D0%BE%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%B3%D0%B5%D0%BD) - Исключительно в аспекте применения теории игр
+
+Чистая математика и прикладные аспекты
+--------------------------------------
 * [Л.В. Тарасов - Азбука математическго анализа. Беседы об основных понятиях. М.: Издательство ЛКИ 2014г. 192 стр.](https://www.ozon.ru/context/detail/id/23875952/)
+* [Математический анализ. В 2-х ч.  Зорич В.А.](http://www.alleng.ru/d/math/math460.htm)
 * [Соловьев Александр - Дискретная математика без формул](https://www.e-reading.club/book.php?book=53506)
 * [Чарльз Уилан - Голая статистика. Самая интересная книга о самой скучной науке.](https://www.mann-ivanov-ferber.ru/books/golaya-statistika/)
-* [Успенский Владимир - Апология математики, или О математике как части духовной культуры](https://www.e-reading.club/book.php?book=139433)
-* [Альфред В. Ахо, Моника С. Лам, Рави Сети, Джеффри Д. Ульман - Компиляторы. Принципы, технологии и инструментарий](https://www.ozon.ru/context/detail/id/3829076/)
-* [Джон Дербишир - Простая одержимость](http://elementy.ru/bookclub/book/332)
-* [М. Тим Джонс - Программирование искусственного интеллекта в приложениях](https://www.litres.ru/tim-dzhons-m/programmirovanie-iskusstvennogo-intellekta-v-prilozheniyah-27059022/)
-* [Станислав Осовский - Нейронные сети для обработки информации](https://www.ozon.ru/context/detail/id/1199050/)
-* [Карпов Ю.Г. Основы построения трансляторов](http://www.studmed.ru/karpov-yug-osnovy-postroeniya-translyatorov_17a68b1f6bb.html)
 * [Агальцов В.П. Математические методы в программировании](https://www.twirpx.com/file/1837479/)
-* [Джозеф Бен-Дэвид. Роль ученого в обществе](http://www.nlobooks.ru/node/4353)
+* [Станислав Осовский - Нейронные сети для обработки информации](https://www.ozon.ru/context/detail/id/1199050/)
 * [Джеффри Д. Ульман, Джон Э. Хопкрофт, Раджив Мотвани - Введение в теорию автоматов, языков и вычислений](https://www.ozon.ru/context/detail/id/31336413/)
 * [А. П. Замятин, А. М. Шур ЯЗЫКИ, ГРАММАТИКИ, РАСПОЗНАВАТЕЛИ](http://kadm.imkn.urfu.ru/files/shurzam.pdf)
-* [Математический анализ. В 2-х ч.  Зорич В.А.](http://www.alleng.ru/d/math/math460.htm)
-* [Александр Ивин - Искусство правильно мыслить](https://www.ozon.ru/context/detail/id/3134515/)
-* [Иэн Стюарт - Величайшие математические задачи](https://www.litres.ru/ien-stuart/velichayshie-matematicheskie-zadachi-15210871/)
-* [Моррис Р. Коэн, Эрнест Нагель - Введение в логику и научный метод](https://www.ozon.ru/context/detail/id/5054849/)
+* [Наталья Садовникова, Римма Шмойлова - Анализ временных рядов и прогнозирование. Учебник](https://www.ozon.ru/context/detail/id/33696615/)
+* [Карпов Ю.Г. Теория автоматов](http://www.studmed.ru/karpov-yug-teoriya-avtomatov_a622b7fe51a.html)
+* [Федор Новиков - Дискретная математика для программистов](https://www.ozon.ru/context/detail/id/3510820/)
 * [Печерский С.Л., Беляева А.А. Теория игр для экономистов. Вводный курс](http://hse-da.narod.ru/fsp/games/gamePechersky.pdf)
-* [Ричард Докинз - Эгоистичный ген](https://ru.wikipedia.org/wiki/%D0%AD%D0%B3%D0%BE%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%B3%D0%B5%D0%BD)
 * [Данилов В.И. Лекции по теории игр](https://www.nes.ru/dataupload/files/programs/econ/preprints/2002/GameTheory.pdf)
 * [Джон фон Нейман, Оскар Моргенштерн - Теория игр и экономическое поведение](https://www.ozon.ru/context/detail/id/7089207/)
-* [Федор Новиков - Дискретная математика для программистов](https://www.ozon.ru/context/detail/id/3510820/)
-* [Карпов Ю.Г. Теория автоматов](http://www.studmed.ru/karpov-yug-teoriya-avtomatov_a622b7fe51a.html)
-* [Наталья Садовникова, Римма Шмойлова - Анализ временных рядов и прогнозирование. Учебник](https://www.ozon.ru/context/detail/id/33696615/)
+
+Программирование
+----------------
+* [М. Тим Джонс - Программирование искусственного интеллекта в приложениях](https://www.litres.ru/tim-dzhons-m/programmirovanie-iskusstvennogo-intellekta-v-prilozheniyah-27059022/)
+* [Альфред В. Ахо, Моника С. Лам, Рави Сети, Джеффри Д. Ульман - Компиляторы. Принципы, технологии и инструментарий](https://www.ozon.ru/context/detail/id/3829076/)
+* [Карпов Ю.Г. Основы построения трансляторов](http://www.studmed.ru/karpov-yug-osnovy-postroeniya-translyatorov_17a68b1f6bb.html)
