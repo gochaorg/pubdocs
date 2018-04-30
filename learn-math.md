@@ -95,3 +95,8 @@
 * [Успенский Владимир - Апология математики, или О математике как части духовной культуры](https://www.e-reading.club/book.php?book=139433)
 * [Альфред В. Ахо, Моника С. Лам, Рави Сети, Джеффри Д. Ульман - Компиляторы. Принципы, технологии и инструментарий](https://www.ozon.ru/context/detail/id/3829076/)
 * [Джон Дербишир - Простая одержимость](http://elementy.ru/bookclub/book/332)
+* [М. Тим Джонс - Программирование искусственного интеллекта в приложениях](https://www.litres.ru/tim-dzhons-m/programmirovanie-iskusstvennogo-intellekta-v-prilozheniyah-27059022/)
+* [Станислав Осовский - Нейронные сети для обработки информации](https://www.ozon.ru/context/detail/id/1199050/)
+* [Карпов Ю.Г. Основы построения трансляторов](http://www.studmed.ru/karpov-yug-osnovy-postroeniya-translyatorov_17a68b1f6bb.html)
+* [Агальцов В.П. Математические методы в программировании](https://www.twirpx.com/file/1837479/)
+* [Джозеф Бен-Дэвид. Роль ученого в обществе](http://www.nlobooks.ru/node/4353)
