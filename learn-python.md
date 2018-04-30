@@ -3,7 +3,6 @@
 * [pythonworld.ru](https://pythonworld.ru/samouchitel-python)
   * Ссылка на [pdf](https://pythonworld.ru/uploads/pythonworldru.pdf)
   * Основы python
-  * 
 
 Курсы python
 ============
