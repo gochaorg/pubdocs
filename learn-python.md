@@ -4,7 +4,7 @@
 Курсы python
 ============
 
-* http://pythontutor.ru/ 
+* [pythontutor.ru](http://pythontutor.ru/)
   * Курс по основам python
   * доступно online выполнение скриптов
   * для каждой главы тестовые задания и выполнение в браузере
