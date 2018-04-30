@@ -100,3 +100,7 @@
 * [Карпов Ю.Г. Основы построения трансляторов](http://www.studmed.ru/karpov-yug-osnovy-postroeniya-translyatorov_17a68b1f6bb.html)
 * [Агальцов В.П. Математические методы в программировании](https://www.twirpx.com/file/1837479/)
 * [Джозеф Бен-Дэвид. Роль ученого в обществе](http://www.nlobooks.ru/node/4353)
+* [Джеффри Д. Ульман, Джон Э. Хопкрофт, Раджив Мотвани - Введение в теорию автоматов, языков и вычислений](https://www.ozon.ru/context/detail/id/31336413/)
+* [А. П. Замятин, А. М. Шур ЯЗЫКИ, ГРАММАТИКИ, РАСПОЗНАВАТЕЛИ](http://kadm.imkn.urfu.ru/files/shurzam.pdf)
+* [Математический анализ. В 2-х ч.  Зорич В.А.](http://www.alleng.ru/d/math/math460.htm)
+* [Александр Ивин - Искусство правильно мыслить](https://www.ozon.ru/context/detail/id/3134515/)
