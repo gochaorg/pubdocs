@@ -109,4 +109,7 @@
 * [Печерский С.Л., Беляева А.А. Теория игр для экономистов. Вводный курс](http://hse-da.narod.ru/fsp/games/gamePechersky.pdf)
 * [Ричард Докинз - Эгоистичный ген](https://ru.wikipedia.org/wiki/%D0%AD%D0%B3%D0%BE%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%BD%D1%8B%D0%B9_%D0%B3%D0%B5%D0%BD)
 * [Данилов В.И. Лекции по теории игр](https://www.nes.ru/dataupload/files/programs/econ/preprints/2002/GameTheory.pdf)
-* []()
+* [Джон фон Нейман, Оскар Моргенштерн - Теория игр и экономическое поведение](https://www.ozon.ru/context/detail/id/7089207/)
+* [Федор Новиков - Дискретная математика для программистов](https://www.ozon.ru/context/detail/id/3510820/)
+* [Карпов Ю.Г. Теория автоматов](http://www.studmed.ru/karpov-yug-teoriya-avtomatov_a622b7fe51a.html)
+* [Наталья Садовникова, Римма Шмойлова - Анализ временных рядов и прогнозирование. Учебник](https://www.ozon.ru/context/detail/id/33696615/)
