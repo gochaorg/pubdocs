@@ -21,5 +21,8 @@ Python
 
 Статьи:
 
-* [Математические модули в Python: статистика](https://code.tutsplus.com/ru/tutorials/mathematical-modules-in-python-statistics--cms-27750)
-* [R и Python — достойные соперники ?](https://habr.com/company/piter/blog/263457/)
+* [Математические модули в Python: статистика](https://code.tutsplus.com/ru/tutorials/mathematical-modules-in-python-statistics--cms-27750) _Очень простой пример по работе со статистикой в python_
+* [Как я покупал квартиру](https://habr.com/post/148782/) _Пример практического использования статистика для анализа прделожений на рынке недвижимости - язык R_
+* [R и Python — достойные соперники ?](https://habr.com/company/piter/blog/263457/) _Сравнение применения R и Python для анализа данных_
+* [Математик взломал сайт знакомств и нашёл девушку мечты](https://habr.com/post/210198/) _Пример наглядный, но без математики, как может помочь матстат_
+* [Презентация о модулях Python для работы с математикой](https://yadi.sk/i/E4NwCfwS3VuAr3)
