@@ -143,13 +143,13 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 ------- ---- -- ---------- ----------- ------------ ---------------
 31087   <b>Full</b>    2.89G      <b>SBT_TAPE</b>    00:03:20     <b>06-JUL-18</b>      
 <i style="color:gray">31087 - номер РК</i>
-       <i style="color:gray">Full - создана полная копия</i>
+        <i style="color:gray">Full - создана полная копия</i>
 		           <i style="color:gray">SBT_TAPE - копия на ленте</i>
-						                       <i style="color:gray">06-JUL-18 - дата создания</i>
+						          <i style="color:gray">06-JUL-18 - дата создания</i>
         BP Key: 31087   Status: AVAILABLE  Compressed: NO  Tag: <b>FULL_DATABASE_DATAFILES</b>
-		                                                        <i style="color:gray">FULL_DATABASE_DATAFILES метка указанная при создании</i>
+		                                                <i style="color:gray">FULL_DATABASE_DATAFILES метка указанная при создании</i>
         Handle: <b>edt7b0jp_1_1</b>   Media: 
-		        <i style="color:gray">edt7b0jp_1_1 - указывает на внутренне имя файла резервной копии</i>
+		<i style="color:gray">edt7b0jp_1_1 - указывает на внутренне имя файла резервной копии</i>
   List of Datafiles in backup set 31087
   File LV Type Ckp SCN    Ckp Time  Name
   ---- -- ---- ---------- --------- ----
