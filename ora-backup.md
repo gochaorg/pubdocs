@@ -208,8 +208,14 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 
 <table style="width: 660px">
  <tr>
-  <td>BS Key</td><td>Type LV</td><td>Size</td><td>Device Type</td><td>Elapsed Time</td><td>Completion Time</td>
- </tr><tr>
+  <td>BS Key</td>
+  <td>Type LV</td>
+  <td>Size</td>
+  <td>Device Type</td>
+  <td>Elapsed Time</td>
+  <td>Completion Time</td>
+ </tr>
+ <tr>
   <td>31087<i style="color: gray; display:block">Номер РК Oracle</i></td>
   <td>Full<i style="color: gray; display:block">Тип копии</i></td>
   <td>2.89G<i style="color: gray; display:block">Размер копии</i></td>
@@ -236,20 +242,48 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 		<td>Ckp Time</td>
 		<td>Name</td>
 	  </tr><tr>
-  <td colspan="2">1</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/system01.dbf
-      </tr><tr>
-  <td colspan="2">2</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/undotbs01.dbf
-      </tr><tr>
-  <td colspan="2">3</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/sysaux01.dbf
-      </tr><tr>
-  <td colspan="2">4</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/users01.dbf
-      </tr><tr>
-  <td colspan="2">5</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/arc01.dbf
-      </tr><tr>
-  <td colspan="2">6</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/arc_data_01.dbf
-      </tr><tr>
-  <td colspan="2">7</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/hr01.dbf
-      </tr>
+      <td colspan="2">1</td>
+      <td>Full</td>
+      <td>317349608711</td>
+      <td>06-JUL-18</td>
+      <td>/oracle/oradata/arcdb/system01.dbf</td>
+    </tr><tr>
+      <td colspan="2">2</td>
+      <td>Full</td>
+      <td>317349608711</td>
+      <td>06-JUL-18</td>
+      <td>/oracle/oradata/arcdb/undotbs01.dbf</td>
+    </tr><tr>
+      <td colspan="2">3</td>
+      <td>Full</td>
+      <td>317349608711</td>
+      <td>06-JUL-18</td>
+      <td>/oracle/oradata/arcdb/sysaux01.dbf</td>
+    </tr><tr>
+      <td colspan="2">4</td>
+      <td>Full</td>
+      <td>317349608711</td>
+      <td>06-JUL-18</td>
+      <td>/oracle/oradata/arcdb/users01.dbf</td>
+    </tr><tr>
+      <td colspan="2">5</td>
+      <td>Full</td>
+      <td>317349608711</td>
+      <td>06-JUL-18</td>
+      <td>/oracle/oradata/arcdb/arc01.dbf</td>
+    </tr><tr>
+      <td colspan="2">6</td>
+      <td>Full</td>
+      <td>317349608711</td>
+      <td>06-JUL-18</td>
+      <td>/oracle/oradata/arcdb/arc_data_01.dbf</td>
+    </tr><tr>
+      <td colspan="2">7</td>
+      <td>Full</td>
+      <td>317349608711</td>
+      <td>06-JUL-18</td>
+      <td>/oracle/oradata/arcdb/hr01.dbf</td>
+    </tr>
 	</table>
   </td>
  </tr>
@@ -258,42 +292,69 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 #### archive logs
 
 <table style="width: 600px">
- <tr><td>BS Key</td><td>Size</td><td>Device Type</td><td>Elapsed Time</td><td>Completion Time</td></tr>
  <tr>
-   <td>31089</td><td>20.50M</td><td>SBT_TAPE</td><td>00:00:03</td><td>06-JUL-18</td>
+  <td>BS Key</td>
+  <td>Size</td>
+  <td>Device Type</td>
+  <td>Elapsed Time</td>
+  <td>Completion Time</td>
+</tr>
+<tr>
+   <td>31089</td>
+   <td>20.50M</td>
+   <td>SBT_TAPE</td>
+   <td>00:00:03</td>
+   <td>06-JUL-18</td>
  </tr>
  <tr>
-  <td></td><td colspan="4">BP Key: 31089   Status: AVAILABLE  Compressed: NO  Tag: FULL_DATABASE_ARCHIVELOGS</td>  
+  <td></td>
+  <td colspan="4">BP Key: 31089   Status: AVAILABLE  Compressed: NO  Tag: FULL_DATABASE_ARCHIVELOGS</td>  
  </tr><tr>
-  <td></td><td colspan="4">Handle: eft7b0qb_1_1   Media: </td>
+  <td></td>
+  <td colspan="4">Handle: eft7b0qb_1_1   Media: </td>
  </tr><tr>
   <td colspan="5">
    List of Archived Logs in backup set 31089 <i style="color: gray; display:block">Список архивных логов в этой РК</i>
    <table>
     <tr>
-	 <td>Thrd</td>
-	 <td>Seq</td>
-	 <td>Low SCN<i style="color: gray; display:block">Номер изменения в БД</i></td>
-	 <td>Low Time</td>
-	 <td>Next SCN<i style="color: gray; display:block">Номер изменения в БД</i></td>
-	 <td>Next Time</td>
-	</tr><tr>
-	 <td>1</td><td>13612</td><td>317349584617</td><td>06-JUL-18</td><td>317349588360</td><td>06-JUL-18</td>
-	</tr><tr>
-	 <td>1</td><td>13613</td><td>317349588360</td><td>06-JUL-18</td><td>317349588434</td><td>06-JUL-18</td>
-	</tr><tr>
-	 <td>1</td><td>13614</td><td>317349588434</td><td>06-JUL-18</td><td>317349609096</td><td>06-JUL-18</td>
-	</tr><tr>
-	 <td>1</td>
-	 <td>13615</td>
-	 <td>
-	   <b>317349609096</b>
-	   <i style="color: gray; display:block">До этого номера будет восстановлена БД</i>
-	 </td>
-	 <td>06-JUL-18</td>
-	 <td>317349609101</td>
-	 <td>06-JUL-18</td>
-	</tr>
+      <td>Thrd</td>
+      <td>Seq</td>
+      <td>Low SCN<i style="color: gray; display:block">Номер изменения в БД</i></td>
+      <td>Low Time</td>
+      <td>Next SCN<i style="color: gray; display:block">Номер изменения в БД</i></td>
+      <td>Next Time</td>
+    </tr><tr>
+      <td>1</td>
+      <td>13612</td>
+      <td>317349584617</td>
+      <td>06-JUL-18</td>
+      <td>317349588360</td>
+      <td>06-JUL-18</td>
+    </tr><tr>
+      <td>1</td>
+      <td>13613</td>
+      <td>317349588360</td>
+      <td>06-JUL-18</td>
+      <td>317349588434</td>
+      <td>06-JUL-18</td>
+    </tr><tr>
+      <td>1</td>
+      <td>13614</td>
+      <td>317349588434</td>
+      <td>06-JUL-18</td>
+      <td>317349609096</td>
+      <td>06-JUL-18</td>
+    </tr><tr>
+      <td>1</td>
+      <td>13615</td>
+      <td>
+        <b>317349609096</b>
+        <i style="color: gray; display:block">До этого номера будет восстановлена БД</i>
+      </td>
+      <td>06-JUL-18</td>
+      <td>317349609101</td>
+      <td>06-JUL-18</td>
+      </tr>
    </table>
   </td>
  </tr>
@@ -302,7 +363,12 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 #### controlfile / spfile
 <table style="width: 600px">
  <tr>
-  <td>BS Key</td><td>Type LV</td><td>Size</td><td>Device Type</td><td>Elapsed Time</td><td>Completion Time</td>
+  <td>BS Key</td>
+  <td>Type LV</td>
+  <td>Size</td>
+  <td>Device Type</td>
+  <td>Elapsed Time</td>
+  <td>Completion Time</td>
  </tr><tr>
   <td>31092</td>
   <td>Full</td>
