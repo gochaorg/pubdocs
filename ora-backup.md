@@ -69,8 +69,12 @@ Redo Buffers                  15556608 bytes
 
 RMAN> run {
 2> allocate channel ch1 type 'SBT_TAPE';
-3> send device type 'SBT_TAPE' 'NSR_ENV=(NSR_SERVER=<b>backup-server.com</b>)'; <i style="color:gray">Указываем адрес EMC Networker сервера</i>
-4> restore spfile to '<b>/home/oracle/test/spfileSID.ora</b>' from '<b>c-367044326-20180706-03</b>'; <i style="color:gray">Куда и откуда (c-367044326-20180706-03 - из mminfo) восстановить SPFILE</i>
+
+<i style="color:gray">Указываем адрес EMC Networker сервера</i>
+3> send device type 'SBT_TAPE' 'NSR_ENV=(NSR_SERVER=<b>backup-server.com</b>)';
+
+<i style="color:gray">Куда и откуда (c-367044326-20180706-03 - из mminfo) восстановить SPFILE</i>
+4> restore spfile to '<b>/home/oracle/test/spfileSID.ora</b>' from '<b>c-367044326-20180706-03</b>'; 
 5> release channel ch1;
 6> }
 
@@ -96,8 +100,12 @@ released channel: ch1
 <pre style="font-size:80%">
 RMAN> run {
 2> allocate channel ch1 type 'SBT_TAPE';
-3> send device type 'SBT_TAPE' 'NSR_ENV=(NSR_SERVER=<b>backup-server.com</b>)'; <i style="color:gray">Указываем адрес EMC Networker сервера</i>
-4> restore controlfile from  'c-367044326-20180706-03'; <i style="color:gray">откуда (c-367044326-20180706-03 - из mminfo) восстановить CONTROLFILE</i>
+
+<i style="color:gray">Указываем адрес EMC Networker сервера</i>
+3> send device type 'SBT_TAPE' 'NSR_ENV=(NSR_SERVER=<b>backup-server.com</b>)'; 
+
+<i style="color:gray">откуда (c-367044326-20180706-03 - из mminfo) восстановить CONTROLFILE</i>
+4> restore controlfile from  'c-367044326-20180706-03';
 5> }
 
 allocated channel: ch1
@@ -121,7 +129,9 @@ released channel: ch1
 --------------------------
 
 <pre style="font-size:80%">
-RMAN> alter database mount; <i style="color:gray">В CONTROLFILE содержиться история РК, читать CONTROLFILE можно в режиме MOUNT и выше</i>
+<i style="color:gray">В CONTROLFILE содержиться история РК, 
+читать CONTROLFILE можно в режиме MOUNT и выше</i>
+RMAN> alter database mount;
 
 database mounted
 
@@ -132,24 +142,9 @@ List of Backup Sets
 
 BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 ------- ---- -- ---------- ----------- ------------ ---------------
-30892   Incr 0  20.25M     SBT_TAPE    00:00:47     22-JUN-18      
-        BP Key: 30892   Status: AVAILABLE  Compressed: NO  Tag: HOT_DB_BK_LEVEL0
-        Handle: bk_30986_1_979465111   Media: 
-  List of Datafiles in backup set 30892
-  File LV Type Ckp SCN    Ckp Time  Name
-  ---- -- ---- ---------- --------- ----
-
-BS Key  Type LV Size       Device Type Elapsed Time Completion Time
-------- ---- -- ---------- ----------- ------------ ---------------
-31087   <b>Full</b>    2.89G      <b>SBT_TAPE</b>    00:03:20     <b>06-JUL-18</b>      
-<i style="color:gray">31087 - номер РК</i>
-        <i style="color:gray">Full - создана полная копия</i>
-		           <i style="color:gray">SBT_TAPE - копия на ленте</i>
-						          <i style="color:gray">06-JUL-18 - дата создания</i>
-        BP Key: 31087   Status: AVAILABLE  Compressed: NO  Tag: <b>FULL_DATABASE_DATAFILES</b>
-		                                                <i style="color:gray">FULL_DATABASE_DATAFILES метка указанная при создании</i>
-        Handle: <b>edt7b0jp_1_1</b>   Media: 
-		<i style="color:gray">edt7b0jp_1_1 - указывает на внутренне имя файла резервной копии</i>
+31087   Full    2.89G      SBT_TAPE    00:03:20     06-JUL-18      
+        BP Key: 31087   Status: AVAILABLE  Compressed: NO  Tag: FULL_DATABASE_DATAFILES
+        Handle: edt7b0jp_1_1   Media: 
   List of Datafiles in backup set 31087
   File LV Type Ckp SCN    Ckp Time  Name
   ---- -- ---- ---------- --------- ----
@@ -175,15 +170,13 @@ BS Key  Size       Device Type Elapsed Time Completion Time
         BP Key: 31089   Status: AVAILABLE  Compressed: NO  Tag: FULL_DATABASE_ARCHIVELOGS
         Handle: eft7b0qb_1_1   Media: 
 
-  <b>List of Archived Logs</b> in backup set 31089
-  <i style="color:gray">Резервная копия содержит архивные логи</i>
+  List of Archived Logs in backup set 31089
   Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
   ---- ------- ---------- --------- ---------- ---------
   1    13612   317349584617 06-JUL-18 317349588360 06-JUL-18
   1    13613   317349588360 06-JUL-18 317349588434 06-JUL-18
   1    13614   317349588434 06-JUL-18 317349609096 06-JUL-18
-  1    13615   <b>317349609096</b> 06-JUL-18 317349609101 06-JUL-18
-               <i style="color:gray">317349609096 - номер SCN до которого будет произведенно восстановление</i>
+  1    13615   317349609096 06-JUL-18 317349609101 06-JUL-18
 
 BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 ------- ---- -- ---------- ----------- ------------ ---------------
@@ -206,7 +199,141 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
         Piece Name: /oracle/flash_recovery_area/ARCDB/autobackup/2018_07_06/o1_mf_s_980772292_fmy7hnd5_.bkp
   Control File Included: Ckp SCN: 317349590649   Ckp time: 06-JUL-18
   SPFILE Included: Modification time: 06-JUL-18
+
 </pre>
+
+### Расшифровка RMAN - list backup
+
+#### full backup
+
+<table>
+ <tr>
+  <td>BS Key</td><td>Type LV</td><td>Size</td><td>Device Type</td><td>Elapsed Time</td><td>Completion Time</td>
+ </tr><tr>
+  <td>31087<i style="color: gray; display:block">Номер РК Oracle</i></td>
+  <td>Full<i style="color: gray; display:block">Тип копии</i></td>
+  <td>2.89G<i style="color: gray; display:block">Размер копии</i></td>
+  <td>SBT_TAPE<i style="color: gray; display:block">Устройство на котором храниться РК</i></td>
+  <td>00:03:20</td>
+  <td>06-JUL-18<i style="color: gray; display:block">Дата РК</i></td>
+ </tr>
+ <tr>
+   <td></td>
+   <td colspan="5">BP Key: 31087 Status: AVAILABLE<i style="color: gray;">(Доступность РК)</i>  Compressed: NO  Tag: FULL_DATABASE_DATAFILES<i style="color: gray;">(Метка)</i></td>
+ </tr>
+ <tr>
+  <td colspan="6">
+    List of Datafiles in backup set 31087
+	<table>
+	  <tr>
+	    <td>File</td>
+		<td>LV</td>
+		<td>Type</td>
+		<td>
+		  Ckp SCN
+		  <i style="color: gray; display:block">Номер изменения в БД</i>
+		</td>
+		<td>Ckp Time</td>
+		<td>Name</td>
+	  </tr><tr>
+  <td colspan="2">1</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/system01.dbf
+      </tr><tr>
+  <td colspan="2">2</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/undotbs01.dbf
+      </tr><tr>
+  <td colspan="2">3</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/sysaux01.dbf
+      </tr><tr>
+  <td colspan="2">4</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/users01.dbf
+      </tr><tr>
+  <td colspan="2">5</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/arc01.dbf
+      </tr><tr>
+  <td colspan="2">6</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/arc_data_01.dbf
+      </tr><tr>
+  <td colspan="2">7</td><td>Full</td><td>317349608711</td><td>06-JUL-18</td><td>/oracle/oradata/arcdb/hr01.dbf
+      </tr>
+	</table>
+  </td>
+ </tr>
+</table>
+
+#### archive logs
+
+<table>
+ <tr><td>BS Key</td><td>Size</td><td>Device Type</td><td>Elapsed Time</td><td>Completion Time</td></tr>
+ <tr>
+   <td>31089</td><td>20.50M</td><td>SBT_TAPE</td><td>00:00:03</td><td>06-JUL-18</td>
+ </tr>
+ <tr>
+  <td></td><td colspan="4">BP Key: 31089   Status: AVAILABLE  Compressed: NO  Tag: FULL_DATABASE_ARCHIVELOGS</td>  
+ </tr><tr>
+  <td></td><td colspan="4">Handle: eft7b0qb_1_1   Media: </td>
+ </tr><tr>
+  <td colspan="5">
+   List of Archived Logs in backup set 31089 <i style="color: gray; display:block">Список архивных логов в этой РК</i>
+   <table>
+    <tr>
+	 <td>Thrd</td>
+	 <td>Seq</td>
+	 <td>Low SCN<i style="color: gray; display:block">Номер изменения в БД</i></td>
+	 <td>Low Time</td>
+	 <td>Next SCN<i style="color: gray; display:block">Номер изменения в БД</i></td>
+	 <td>Next Time</td>
+	</tr><tr>
+	 <td>1</td><td>13612</td><td>317349584617</td><td>06-JUL-18</td><td>317349588360</td><td>06-JUL-18</td>
+	</tr><tr>
+	 <td>1</td><td>13613</td><td>317349588360</td><td>06-JUL-18</td><td>317349588434</td><td>06-JUL-18</td>
+	</tr><tr>
+	 <td>1</td><td>13614</td><td>317349588434</td><td>06-JUL-18</td><td>317349609096</td><td>06-JUL-18</td>
+	</tr><tr>
+	 <td>1</td>
+	 <td>13615</td>
+	 <td>
+	   <b>317349609096</b>
+	   <i style="color: gray; display:block">До этого номера будет восстановлена БД</i>
+	 </td>
+	 <td>06-JUL-18</td>
+	 <td>317349609101</td>
+	 <td>06-JUL-18</td>
+	</tr>
+   </table>
+  </td>
+ </tr>
+</table>
+
+#### controlfile / spfile
+<table>
+ <tr>
+  <td>BS Key</td><td>Type LV</td><td>Size</td><td>Device Type</td><td>Elapsed Time</td><td>Completion Time</td>
+ </tr><tr>
+  <td>31092</td>
+  <td>Full</td>
+  <td>6.89M</td>
+  <td>DISK<i style="color: gray; display:block">резервная копися расположена на диске</i></td>
+  <td>00:00:00</td>
+  <td>06-JUL-18</td>
+ </tr>
+ <tr>
+   <td></td>
+   <td colspan="5">BP Key: 31092   Status: AVAILABLE  Compressed: NO  Tag: TAG20180706T124452</td>
+ </tr>
+ <tr>
+   <td></td>
+   <td colspan="5">Piece Name: `/oracle/flash_recovery_area/ARCDB/autobackup/2018_07_06/o1_mf_s_980772292_fmy7hnd5_.bkp`
+   <i style="color: gray; display:block">РК состоит из одно файла и находиться по указаному пути на диске</i>
+   </td>
+ </tr>
+ <tr>
+   <td colspan="6">
+   Control File Included: Ckp SCN: 317349590649   Ckp time: 06-JUL-18
+   <i style="color: gray; display:block">РК содержит CONTROLFILE</i>
+   </td>
+ </tr>
+ <tr>
+   <td colspan="6">
+   SPFILE Included: Modification time: 06-JUL-18
+   <i style="color: gray; display:block">РК содержит SPFILE</i>
+   </td>
+ </tr>
+</table>
 
 Восстановление базы на момент времени/SCN
 -----------------------------------------
@@ -214,8 +341,12 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 <pre style="font-size: 80%">
 RMAN> run {
 2> allocate channel ch1 type 'SBT_TAPE';
-3> send device type 'SBT_TAPE' 'NSR_ENV=(NSR_SERVER=<b>backup-server.com</b>)'; <i style="color:gray">Указываем адрес EMC Networker сервера</i>
-4> set until scn = <b>317349609096</b>; <i style="color:gray">До кого номера SCN восстанавливаем базу</i>
+
+<i style="color:gray">Указываем адрес EMC Networker сервера</i>
+3> send device type 'SBT_TAPE' 'NSR_ENV=(NSR_SERVER=<b>backup-server.com</b>)'; 
+
+<i style="color:gray">До кого номера SCN восстанавливаем базу</i>
+4> set until scn = <b>317349609096</b>;
 5> restore database;
 6> recover database;
 7> alter database open resetlogs;
