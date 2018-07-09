@@ -206,7 +206,7 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 
 #### full backup
 
-<table>
+<table style="width: 660px">
  <tr>
   <td>BS Key</td><td>Type LV</td><td>Size</td><td>Device Type</td><td>Elapsed Time</td><td>Completion Time</td>
  </tr><tr>
@@ -257,7 +257,7 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 
 #### archive logs
 
-<table>
+<table style="width: 600px">
  <tr><td>BS Key</td><td>Size</td><td>Device Type</td><td>Elapsed Time</td><td>Completion Time</td></tr>
  <tr>
    <td>31089</td><td>20.50M</td><td>SBT_TAPE</td><td>00:00:03</td><td>06-JUL-18</td>
@@ -300,7 +300,7 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
 </table>
 
 #### controlfile / spfile
-<table>
+<table style="width: 600px">
  <tr>
   <td>BS Key</td><td>Type LV</td><td>Size</td><td>Device Type</td><td>Elapsed Time</td><td>Completion Time</td>
  </tr><tr>
@@ -317,7 +317,7 @@ BS Key  Type LV Size       Device Type Elapsed Time Completion Time
  </tr>
  <tr>
    <td></td>
-   <td colspan="5">Piece Name: `/oracle/flash_recovery_area/ARCDB/autobackup/2018_07_06/o1_mf_s_980772292_fmy7hnd5_.bkp`
+   <td colspan="5">Piece Name: /oracle/flashrecoveryarea/ARCDB/autobackup/2018_07_06/o1_mf_s_980772292_fmy7hnd5_.bkp
    <i style="color: gray; display:block">РК состоит из одно файла и находиться по указаному пути на диске</i>
    </td>
  </tr>
